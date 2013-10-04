@@ -1,8 +1,6 @@
-# NYTimes Objective-C Style Guide
+# Zeega Objective-C Style Guide
 
-This style guide outlines the coding conventions of the iOS team at The New York Times. We welcome your feedback in [issues](https://github.com/NYTimes/objetive-c-style-guide/issues), [pull requests](https://github.com/NYTimes/objetive-c-style-guide/pulls) and [tweets](https://twitter.com/nytimesmobile). Also, [we're hiring](http://jobs.nytco.com/job/New-York-iOS-Developer-Job-NY/2572221/).
-
-Thanks to all of [our contributors](https://github.com/NYTimes/objective-c-style-guide/contributors).
+This style guide outlines the coding conventions of the iOS team at Zeega. It is based on the [NYTimes style guide](https://github.com/NYTimes/objetive-c-style-guide)
 
 ## Introduction
 
@@ -35,22 +33,6 @@ Here are some of the documents from Apple that informed the style guide. If some
 * [Booleans](#booleans)
 * [Singletons](#singletons)
 * [Xcode Project](#xcode-project)
-
-## Dot-Notation Syntax
-
-Dot-notation should **always** be used for accessing and mutating properties. Bracket notation is preferred in all other instances.
-
-**For example:**
-```objc
-view.backgroundColor = [UIColor orangeColor];
-[UIApplication sharedApplication].delegate;
-```
-
-**Not:**
-```objc
-[view setBackgroundColor:[UIColor orangeColor]];
-UIApplication.sharedApplication.delegate;
-```
 
 ## Spacing
 
