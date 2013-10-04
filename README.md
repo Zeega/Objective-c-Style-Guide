@@ -13,7 +13,6 @@ Here are some of the documents from Apple that informed the style guide. If some
 
 ## Table of Contents
 
-* [Dot-Notation Syntax](#dot-notation-syntax)
 * [Spacing](#spacing)
 * [Conditionals](#conditionals)
   * [Ternary Operator](#ternary-operator)
